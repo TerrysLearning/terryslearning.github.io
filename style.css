@@ -46,8 +46,8 @@ h2 {
 
 .topnav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   padding: 0.5rem 2rem;
   border-bottom: 1px solid #ccc;
   background-color: #fff;
@@ -60,13 +60,20 @@ h2 {
   height: 50px;
 }
 
-.nav-right a {
-  margin-left: 20px;
+/* New style to center the nav links */
+.nav-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-center a {
+  margin: 0 15px;
   text-decoration: none;
   font-weight: 500;
   color: #222;
 }
 
-.nav-right a:hover {
+.nav-center a:hover {
   text-decoration: underline;
 }
