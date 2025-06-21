@@ -65,6 +65,7 @@ h2 {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  font-size: 1.3rem;
 }
 
 .nav-center a {
@@ -83,7 +84,7 @@ h2 {
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .gallery img {
@@ -101,4 +102,8 @@ h2 {
 
 .gallery img.featured {
   width: 250px; /* or any size bigger than the default */
+}
+
+.gallery img.featured2 {
+  width: 380px; /* or any size bigger than the default */
 }
