@@ -43,3 +43,30 @@ h2 {
   border-bottom: 1px solid #ccc;
   padding-bottom: 0.25rem;
 }
+
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-left .nav-logo {
+  height: 50px;
+}
+
+.nav-right a {
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #222;
+}
+
+.nav-right a:hover {
+  text-decoration: underline;
+}
