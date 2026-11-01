@@ -107,6 +107,16 @@ h3 { margin: 0; }
 }
 a.chip:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
 
+/* ===== Open-to-work callout ===== */
+.callout {
+  margin: 2.5rem 0 0;
+  padding: 1rem 1.25rem;
+  font-size: 1.05rem;
+  background: var(--yellow);
+  border: 1px solid color-mix(in srgb, var(--yellow-bar) 45%, transparent);
+  border-radius: 10px;
+}
+
 /* ===== Project cards ===== */
 .project {
   background: var(--card);
