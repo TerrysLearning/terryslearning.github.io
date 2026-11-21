@@ -116,6 +116,14 @@ a.chip:hover { border-color: var(--accent); color: var(--accent); text-decoratio
   background: var(--yellow);
   border: 1px solid color-mix(in srgb, var(--yellow-bar) 45%, transparent);
   border-radius: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.callout:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+@media (prefers-reduced-motion: reduce) {
+  .callout, .callout:hover { transition: none; transform: none; }
 }
 
 /* ===== Project cards ===== */
